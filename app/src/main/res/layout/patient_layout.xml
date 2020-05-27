@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        style="@style/donorsBoundaryElement"
+        android:id="@+id/patientName"
+        android:hint="@string/name"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent" />
+
+    <EditText
+        style="@style/donors"
+        android:hint="@string/surname"
+        android:id="@+id/patientSurname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/patientMidName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mid_name" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/patientDateBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/date_birth"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/patientGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/patientAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/patientMIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/id_patient_MIS" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/patientLIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/id_patient_LIS" />
+
+    <Button
+        android:id="@+id/buttonSavePatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_button"
+        android:textColor="@color/colorWhite"
+        android:padding="7dp"
+        android:layout_margin="20dp"
+        android:text="@string/save" />
+
+</LinearLayout>
+
+

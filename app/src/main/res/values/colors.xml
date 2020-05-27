@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D5D5D5</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorAccent">#2B0063</color>
+    <color name="colorRed">#6D0016</color>
+    <color name="colorBlue">#006275</color>
+    <color name="colorLightBlue">#00A2C7</color>
+    <color name="colorTableHeader">#E9FFF7</color>
+    <color name="colorTableValue">#F0F0F0</color>
+    <color name="colorDialogElement">#F1F1F1</color>
+
+    <color name="colorDarkPurple">#060035</color>
+
+    <color name="colorPurpleOne">#E7D9FF</color>
+    <color name="colorPurpleTwo">#D6B6FF</color>
+    <color name="colorPurpleThree">#AC75FF</color>
+
+    <color name="colorBlueOne">#A3C2FF</color>
+    <color name="colorBlueTwo">#7DB8FF</color>
+    <color name="colorBlueThree">#2C7FFF</color>
+
+    <color name="colorTurquoiseOne">#B6FFF6</color>
+    <color name="colorTurquoiseTwo">#51FFEC</color>
+    <color name="colorTurquoiseThree">#03F7FF</color>
+
+
+    <color name="colorYellowOne">#FAFFC9</color>
+    <color name="colorYellowTwo">#F4FF84</color>
+    <color name="colorYellowThree">#EAFF39</color>
+</resources>

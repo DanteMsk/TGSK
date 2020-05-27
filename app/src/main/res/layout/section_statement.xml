@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tesss">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="206dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/new_statement"
+            android:textAlignment="center"
+            android:textColor="#0C1F3C"
+            android:background="#E0F2FF"
+            android:textSize="30sp" />
+
+        <Button
+            style="@style/DialogsCreateElement"
+            android:id="@+id/buttonStatement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_statement" />
+
+        <Button
+            style="@style/DialogsCreateElement"
+            android:id="@+id/buttonStatusAndEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/statuses_and_events" />
+
+        <Button
+            style="@style/DialogsCreateElement"
+            android:id="@+id/buttonPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient" />
+
+        <Button
+            style="@style/DialogsCreateElement"
+            android:id="@+id/buttonDonors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donor" />
+
+        <Button
+            style="@style/DialogsCreateElement"
+            android:id="@+id/buttonFiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/files" />
+
+
+</LinearLayout>

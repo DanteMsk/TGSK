@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Планирование ТГСК</string>
+    <string name="menu_settings">настройки</string>
+    <string name="menu_statement">заявка</string>
+    <string name="menu_condition">состояние</string>
+    <string name="menu_calendar">календарь</string>
+
+    <string name="button_name_create">Создать</string>
+    <string name="button_filter">Фильтр</string>
+    <string name="button_report">Отчет</string>
+    <string name="button_export">Экспорт</string>
+    <string name="quantity_statement">количество записей</string>
+
+    <string name="name">имя</string>
+    <string name="surname">фамилия</string>
+    <string name="sart">SAR-T</string>
+    <string name="clinical_diagnosis">Клинический диагноз</string>
+    <string name="optimal_duration_of_cell_therapy">Оптимальный срок клеточной терапии</string>
+    <string name="HLA">HLA-типизирован</string>
+    <string name="clinical_submitted_application">Клиника подавшая заявку</string>
+    <string name="current_status">Текущий статус</string>
+
+<!--    calendar    -->
+
+    <string name="count_status">Количество заявок по статусам</string>
+    <string name="new_statement_MIS">Новая заявка МИС</string>
+    <string name="new_statement_MIS_CGM">Новая заявка МИС CGM</string>
+    <string name="request_rejected">Заявка отклонена</string>
+    <string name="deferred_consideration">Рассмотрение отложено</string>
+    <string name="HR_HLA_typing_of_related_donors">HR HLA-типирование родственных доноров</string>
+    <string name="HLA_typing_of_siblings">HLA-типирование сиблингов</string>
+    <string name="examination_potential_donors">Обследование потенциальных доноров</string>
+    <string name="search_unrelated_donor">Поиск неродственного донора</string>
+    <string name="sending_DNA_donor_bank">Отправка ДНК в банк доноров</string>
+    <string name="donor_approved">Донор утвержден</string>
+    <string name="preliminary_date_TGSK">Предварительная дата ТГСК	Дата ТГСК </string>
+    <string name="planing_count_transplantation">КАЛЕНДАРЬ ТРАНСПЛАНТАЦИЙ</string>
+    <string name="planing_count_transplantation_current_date">ЗАПЛАНИРОВАННО: </string>
+
+
+    <string name="show_statements">Посмотреть</string>
+    <string name="q">Нажата кнопка 1</string>
+    <string name="select_type_statement">Выберете тип заявки</string>
+    <string name="type_statement">Тип заявки</string>
+    <string name="type_donor">Тип донора</string>
+    <string name="button_close">Закрыть</string>
+
+    <string name="save">Сохранить</string>
+    <string name="edit">ИЗМЕНИТЬ</string>
+    <string name="watch">СМОТРЕТЬ</string>
+    <string name="delete">Удалить</string>
+    <string name="status">Статус</string>
+    <string name="add">Добавить</string>
+    <string name="date">Дата</string>
+    <string name="date_hint">дд.мм.гг.</string>
+    <string name="date_birth">дата рождения дд.мм.гг.</string>
+
+
+    <string-array name="dialogCreateStatement">
+        <item>стандартная</item>
+        <item>CAR-T</item>
+    </string-array>
+
+
+
+    <string name="new_statement">Новая заявка</string>
+    <string name="statuses_and_events">Статусы и события</string>
+    <string name="patient">Пациент</string>
+    <string name="donor">Доноры</string>
+    <string name="files">Файлы</string>
+
+<!--    statement   -->
+    <string name="type_of_cell_therapy">Вид клеточной терапии</string>
+    <string name="number_of_cell_therapy">Номер клеточной терапии</string>
+    <string name="department_of_TGSK">Департамент ТГСК</string>
+    <string name="clarification_of_cell_therapy">Уточнение вида клеточной терапии</string>
+    <string name="optimal_period_of_cell_therapy">Оптимальный срок клеточной терапии</string>
+    <string name="planing_period_of_cell_therapy">Планируемый срок клеточной терапии</string>
+    <string name="planing_date_of_cell_therapy">Планируемая дата клеточной терапии</string>
+    <string name="date_of_cell_therapy">Дата клеточной терапии</string>
+    <string name="date_of_hospitalization_CART">Дата госпитализации (дата афереза для CAR-T)</string>
+    <string name="clinic_create_statement">Клиника подавшая заявку</string>
+    <string name="hla_typing">HLA-типирован</string>
+
+    <string-array name="spinnerType">
+        <item>Аутологичная</item>
+        <item>Аллогенная</item>
+    </string-array>
+
+    <string-array name="spinnerNumberTherapy">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="spinnerDepartment">
+        <item>Стационар</item>
+        <item>Регистратура</item>
+        <item>Кабинеты врачей</item>
+        <item>Отделение онкогематологии</item>
+        <item>Отделение клинической онкологии</item>
+        <item>Отделение иммунологии</item>
+        <item>Параклиника</item>
+        <item>Приемное отделение</item>
+    </string-array>
+
+    <string-array name="spinnerMount">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string-array name="spinnerYear">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="upload_files">Нажмите на кнопку чтобы загрузить файлы</string>
+    <string name="upload_files_button">загрузить файл</string>
+
+
+
+<!-- patient-->
+    <string name="id_patient_LIS">ID ЛИС</string>
+    <string name="id_patient_MIS">ID МИС</string>
+
+<!--donors-->
+    <string name="mid_name">отчество</string>
+    <string name="relationship">родство</string>
+    <string name="gender">пол</string>
+    <string name="age">возраст</string>
+    <string name="weight">вес</string>
+    <string name="height">рост</string>
+    <string name="id_donor_MIS">ID донора в МИС</string>
+
+    <string-array name="spinnerRelationship">
+        <item>родство</item>
+        <item>брат</item>
+        <item>сестра</item>
+        <item>мать</item>
+        <item>отец</item>
+        <item>сводный брат</item>
+        <item>сводная сестра</item>
+        <item>тетя</item>
+        <item>дядя</item>
+        <item>другое</item>
+    </string-array>
+
+    <string-array name="spinnerGender">
+        <item>пол</item>
+        <item>мужской</item>
+        <item>женский</item>
+    </string-array>
+
+<!--  statusAndEvent  -->
+    <string-array name="spinnerCurrentStatus">
+        <item>новая заявка</item>
+        <item>новая заявка МИС</item>
+        <item>новая заявка МИС CGM</item>
+        <item>новая заявка таблица</item>
+        <item>заявка отклонена</item>
+        <item>рассмотрение отложено</item>
+        <item>донор утвержден</item>
+        <item>дата ТГСК утверждена</item>
+        <item>HR HLA-типирование сиблингов</item>
+    </string-array>
+
+</resources>

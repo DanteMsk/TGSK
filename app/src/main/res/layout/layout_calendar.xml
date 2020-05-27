@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="@string/planing_count_transplantation"
+                android:textColor="#05072E"
+                android:background="#FFF9F3"
+                android:padding="20dp"
+                android:textSize="18sp" />
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_calendar"
+                android:foregroundGravity="center" />
+
+
+            <TextView
+                android:id="@+id/currentDateText"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/rectangle_rounded"
+                android:padding="20dp"
+                android:text="@string/planing_count_transplantation_current_date"
+                android:textColor="#FFF8EE"
+                android:textSize="18sp">
+            </TextView>
+
+            <Button
+                android:id="@+id/buttonShowStatement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/rectangle_rounded_all"
+                android:textColor="#FFF8EE"
+                android:visibility="invisible"
+                android:text="@string/show_statements"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

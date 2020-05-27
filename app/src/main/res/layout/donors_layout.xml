@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        style="@style/donorsBoundaryElement"
+        android:id="@+id/donorName"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/donorSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/donorMidName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mid_name" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/donorDateBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/date_birth"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/donorRelationship"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/donorGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/id_donor_MIS"/>
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/donorAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/donorWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/weight" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/donorHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/height" />
+
+    <EditText
+        style="@style/donors"
+        android:id="@+id/donorMis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/id_donor_MIS" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_button"
+        android:textColor="@color/colorWhite"
+        android:padding="7dp"
+        android:layout_margin="20dp"
+        android:text="@string/save" />
+
+</LinearLayout>

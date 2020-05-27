@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusGraphActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/LinerLayoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/count_status" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+
+                    <com.jjoe64.graphview.GraphView
+                        android:id="@+id/graph"
+                        android:layout_width="500dp"
+                        android:layout_height="400dp"
+                        android:layout_marginTop="20dp"/>
+
+                </LinearLayout>
+
+        </HorizontalScrollView>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorTableHeader">
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_statement" />
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_statement_MIS" />
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="@string/new_statement_MIS_CGM" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="15dp"
+                    android:background="@color/colorTableValue">
+
+                    <TextView
+                        android:id="@+id/cell_00"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPurpleOne" />
+
+                    <TextView
+                        android:id="@+id/cell_01"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPurpleTwo" />
+
+                    <TextView
+                        android:id="@+id/cell_02"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:background="@color/colorPurpleThree" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorTableHeader">
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deferred_consideration" />
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:text="@string/HR_HLA_typing_of_related_donors" />
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="@string/HLA_typing_of_siblings" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="15dp"
+                    android:background="@color/colorTableValue">
+
+                    <TextView
+                        android:id="@+id/cell_10"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorBlueOne" />
+
+                    <TextView
+                        android:id="@+id/cell_11"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:background="@color/colorBlueTwo" />
+
+                    <TextView
+                        android:id="@+id/cell_12"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@color/colorBlueThree"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorTableHeader">
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/request_rejected" />
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="@string/search_unrelated_donor" />
+
+                    <TextView
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/donor_approved" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/colorTableValue">
+
+                    <TextView
+                        android:id="@+id/cell_20"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorTurquoiseOne" />
+
+                    <TextView
+                        android:id="@+id/cell_21"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:background="@color/colorTurquoiseTwo" />
+
+                    <TextView
+                        android:id="@+id/cell_22"
+                        style="@style/TableHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@color/colorTurquoiseThree" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
