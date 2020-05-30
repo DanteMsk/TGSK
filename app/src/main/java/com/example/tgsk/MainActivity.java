@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.tgsk.Adapters.AdapterForMainActivity;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     Button createButton;
     Spinner spinner;
     LinkedList<Statement> statementsAll;
+    TextView countStatement;
 
 
     @Override
@@ -86,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public LinkedList<Statement> getStatementList() {
 
-        Statement statement = new Statement("dada", "Алло", "12/04/2020");
+        Statement statement = new Statement("daduuuuuuuuuuduuuuuuuuuuuuuuuuuuuuuua", "Алло", "12/04/2020");
         Statement statement2 = new Statement("dad", "Алло", "12/04/2020");
         Statement statement3 = new Statement("dadda", "Алло", "15/04/2020");
         Statement statement4 = new Statement("daaa", "Алло", "12/04/2020");

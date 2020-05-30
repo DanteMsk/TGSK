@@ -40,12 +40,8 @@ public class AdapterForMainActivity extends RecyclerView.Adapter<AdapterForMainA
         holder.namePatient.setText((CharSequence) statementList.get(position).getName());
         holder.surnamePatient.setText((CharSequence) statementList.get(position).getSurnamePatient());
         holder.clinicalDiagnosis.setText((CharSequence) statementList.get(position).getClinicalDiagnosis());
-        holder.clinic.setText((CharSequence) statementList.get(position).getClinic());
         holder.dateCell.setText((CharSequence) statementList.get(position).getDateEvent());
         holder.currentStatus.setText((CharSequence) statementList.get(position).getStatus());
-        holder.cart.setText((CharSequence) statementList.get(position).getCart());
-        holder.optimalDate.setText((CharSequence) statementList.get(position).getOptimalDate());
-        holder.hla_typing.setText((CharSequence) statementList.get(position).getHla_typing());
     }
 
 
@@ -56,8 +52,7 @@ public class AdapterForMainActivity extends RecyclerView.Adapter<AdapterForMainA
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView namePatient, surnamePatient, clinicalDiagnosis, dateCell, currentStatus,
-                 optimalDate ,clinic, cart, hla_typing;
+        TextView namePatient, surnamePatient, clinicalDiagnosis, dateCell, currentStatus;
         Button showStatement;
 
 
@@ -68,10 +63,6 @@ public class AdapterForMainActivity extends RecyclerView.Adapter<AdapterForMainA
             clinicalDiagnosis = itemView.findViewById(R.id.clinicalDiagnosisStatementMain);
             dateCell = itemView.findViewById(R.id.dateCellStatementMain);
             currentStatus = itemView.findViewById(R.id.currentStatusStatementMain);
-            clinic = itemView.findViewById(R.id.ClinicStatementMain);
-            cart = itemView.findViewById(R.id.cartStatementMain);
-            optimalDate = itemView.findViewById(R.id.optimalDateMain);
-            hla_typing = itemView.findViewById(R.id.hla_typingStatementMain);
             showStatement = itemView.findViewById(R.id.showStatement);
 
             showStatement.setOnClickListener(new View.OnClickListener() {

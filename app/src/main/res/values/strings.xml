@@ -77,10 +77,12 @@
     <string name="optimal_period_of_cell_therapy">Оптимальный срок клеточной терапии</string>
     <string name="planing_period_of_cell_therapy">Планируемый срок клеточной терапии</string>
     <string name="planing_date_of_cell_therapy">Планируемая дата клеточной терапии</string>
-    <string name="date_of_cell_therapy">Дата клеточной терапии</string>
+    <string name="date_of_cell_therapy">дата клеточной терапии</string>
     <string name="date_of_hospitalization_CART">Дата госпитализации (дата афереза для CAR-T)</string>
     <string name="clinic_create_statement">Клиника подавшая заявку</string>
     <string name="hla_typing">HLA-типирован</string>
+
+    <string name="separator"> </string>
 
     <string-array name="spinnerType">
         <item>Аутологичная</item>
