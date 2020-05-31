@@ -11,7 +11,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.tgsk.MainActivity;
 import com.example.tgsk.R;
 import com.example.tgsk.Statement.Statement;
 

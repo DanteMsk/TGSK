@@ -3,17 +3,14 @@ package com.example.tgsk.LayoutLogic;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.tgsk.Adapters.AdapterForStatus;
-import com.example.tgsk.MainActivity;
 import com.example.tgsk.R;
 import com.example.tgsk.Status.StatusAndEvent;
 
@@ -50,7 +47,6 @@ public class StatusAndEventLayout implements View.OnClickListener {
             default:
                 v.setBackgroundColor(Color.rgb(236, 236, 236));
         }
-
     }
 
 
